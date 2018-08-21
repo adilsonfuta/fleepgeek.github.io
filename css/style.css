@@ -1,0 +1,209 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pd-top-big {
+	padding-top: 30px;
+}
+
+.pd-bottom-big {
+	padding-bottom: 30px;
+}
+
+.green-line {
+    width: 50px;
+    height: 3px;
+    background-color: #96c049;
+    margin: 5px;
+}
+
+
+  .navbar-default {
+        background: #fff;
+    }
+
+/*Intro Section*/
+
+.intro-section {
+	background-image: url("../img/header_bg_2.png");
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.intro-section .color-overlay {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+#headline-section {
+    padding: 40px 0;
+     display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.headline h1{
+    color: #fff;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*service*/
+
+.services-heading {
+    margin: 50px 0 0 0;
+}
+
+.service {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.service h4 {
+    font-weight: 600;
+}
+
+.solutions-heading {
+    margin: 50px 0 0 0;
+}
+
+.solutions-heading h2 {
+    font-weight: 400;
+}
+
+.solution-img img {
+    border: 1px solid grey;
+    /*margin: 0 auto;*/
+    padding: 30px;
+}
+
+.solution-desc h3 {
+    font-size: 20px;
+}
+
+.solution-desc p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #777777;
+}
+
+#who {
+    background: url('../img/ajuwaya_icon.png') no-repeat right center fixed;
+}
+
+.who-heading {
+    margin: 50px 0 0 0;
+}
+
+.who-overlay {
+    background: rgba(102,113, 103, 0.3) none repeat scroll 0 0;
+}
+
+.who-desc p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.who-img img {
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#contact {
+    background: url('../img/header_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.contact-overlay {
+    background: rgba(150,192, 73, 0.9) none repeat scroll 0 0;
+}
+
+.contact-info-text {
+    margin-bottom: 50px;
+}
+
+
+.contact-info-text h4 {
+    line-height: 1.7;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.contact-info-text address {
+    line-height: 2;
+    color: #fff;
+}
+
+.contact-info-text i {
+    padding-right: 10px;
+    color: #000;
+}
+
+.contact-info-text a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#footer {
+    padding: 20px 0;
+    background-color: #667167;
+    color: #fff;
+}
+
+.btn-send {
+    background: #667167;
+    color: #fff;
+    border-color: #777777;
+    margin-top: 10px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+
+@media (min-width: 768px) {
+
+  
+    .navbar-default {
+        background-color: transparent;
+        border-color: transparent; 
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .navbar-default.active {
+        background-color: #f8f8f8;
+        border-color: #e7e7e7;
+    }
+
+    .navbar-nav>li>a:hover {
+        color: #96c049 !important;
+        border-bottom: 2px solid #96c049;
+    }
+
+    .service {
+        padding-bottom: 0;
+    }
+
+}
